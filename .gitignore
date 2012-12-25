@@ -1,0 +1,28 @@
+##############################################
+## Scala + Java
+##############################################
+
+*.class
+*.jar
+*.log
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+
+
+##############################################
+## other stuff (idea, sbt, and some folders)
+##############################################
+.idea/
+*.iml
+*.history
+ignore/
+External_Resources/
